@@ -42,6 +42,15 @@
 - Deliverables: public GitHub repo (agent + contracts + dashboard + tests), demo video, X post (user posts), Google Form submission.
 - Traction reality: main track prizes likely weight traction heavily; a new agent with no users is weak there. Realistic targets: (a) solid technical entry in the $20k Agentic pool, (b) the $6,000 community-voted build-in-public award → post build-in-public updates on X during the season (drafts by Kira, posted by user).
 
+## Build — StockPilot (VERIFIED 15 Nov 01:28 WIB, $0 real money)
+- Repo: https://github.com/sadiomonro-boop/stockpilot-agent @ 02992ce (100 files, no secrets)
+- Agent: Node 22 TS (viem only), tests 29/29 pass; Forge 8/8 pass.
+- TradeJournal Base Sepolia: 0x91e643Be543078DFA2CbE4101e06e80C7d62E0F4, deploy tx 0x035e826baa2e71a28b7fa601846f92b3c424baab6fb38da21d87e635236077ef (block 58788009); tradeCount() = 10 on-chain (verified via cast; trade 0 AAPLc $355.585, trade 9 SPCXc $136.54); owner = deployer 0x91A0FdE7899BD2639Cb1aec04BF5601C4704c1a6.
+- Portfolio: virtual $10,000, 10 positions x 9.50% ($950 each), cash $500, PnL $0.00 (NAVs identical across 4 cycles run minutes apart — momentum tilt engages as prices move over days; logic proven by unit tests).
+- Dashboard renders verified (screenshot 15 Nov 01:27 WIB): portfolio, positions, reasoning table.
+- Caveat: first deploy mistakenly went to Ethereum Sepolia (0xb7DE9516F6CadB0c20C0a4EA94712d9fD3570B59) — orphaned, unused, testnet only.
+- REMAINING: demo video (Loom-style) + X post (user posts, tag @buildonbase) + Google Form before 5 Des 2026 23:59 UTC.
+
 ## VM notes
 - Public Base RPCs returned empty eth_call results from this VM earlier (1rpc.io rate-limited) — agent must try multiple RPCs and fall back to the REST API nav_price if on-chain reads fail; never depend on one RPC.
 - Base USDC checksummed: 0x833589FCD6EdB6E08F4c7C32d4F71B54bd029029.
