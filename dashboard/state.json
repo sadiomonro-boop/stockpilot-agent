@@ -1,0 +1,1351 @@
+{
+  "updatedAt": "2026-11-14T18:06:59.377Z",
+  "startCapitalUsd": 10000,
+  "cashUsd": 499.9999999999999,
+  "positions": {
+    "AAPLc": {
+      "tokens": 2.6716537536735245,
+      "avgPrice": 355.585
+    },
+    "AMZNc": {
+      "tokens": 3.5788654808064506,
+      "avgPrice": 265.44725
+    },
+    "GOOGLc": {
+      "tokens": 3.2215274861161043,
+      "avgPrice": 294.89116703
+    },
+    "METAc": {
+      "tokens": 1.4877682596311426,
+      "avgPrice": 638.54030616
+    },
+    "MSFTc": {
+      "tokens": 1.8185124568103295,
+      "avgPrice": 522.405
+    },
+    "MSTRc": {
+      "tokens": 8.675799086757992,
+      "avgPrice": 109.5
+    },
+    "NVDAc": {
+      "tokens": 5.909230404617474,
+      "avgPrice": 160.76543559
+    },
+    "SNDKc": {
+      "tokens": 1.0959460379243475,
+      "avgPrice": 866.831
+    },
+    "SPCXc": {
+      "tokens": 6.9576680826131545,
+      "avgPrice": 136.54
+    },
+    "TSLAc": {
+      "tokens": 2.4497605681381565,
+      "avgPrice": 387.793
+    }
+  },
+  "cyclesRun": 4,
+  "lastDecision": {
+    "cycle": 4,
+    "at": "2026-11-14T18:06:56.129Z",
+    "portfolioValueUsd": 10000.000000000002,
+    "cashUsd": 499.9999999999999,
+    "signals": [
+      {
+        "symbol": "AAPLc",
+        "price": 355.585,
+        "source": "chainlink",
+        "momentum": 0,
+        "sma": 355.585,
+        "trendUp": true,
+        "score": 0,
+        "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+      },
+      {
+        "symbol": "AMZNc",
+        "price": 265.44725,
+        "source": "chainlink",
+        "momentum": 0,
+        "sma": 265.44725,
+        "trendUp": true,
+        "score": 0,
+        "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+      },
+      {
+        "symbol": "GOOGLc",
+        "price": 294.89116703,
+        "source": "chainlink",
+        "momentum": 0,
+        "sma": 294.89116703,
+        "trendUp": true,
+        "score": 0,
+        "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+      },
+      {
+        "symbol": "METAc",
+        "price": 638.54030616,
+        "source": "chainlink",
+        "momentum": 0,
+        "sma": 638.54030616,
+        "trendUp": true,
+        "score": 0,
+        "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+      },
+      {
+        "symbol": "MSFTc",
+        "price": 522.405,
+        "source": "chainlink",
+        "momentum": 0,
+        "sma": 522.405,
+        "trendUp": true,
+        "score": 0,
+        "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+      },
+      {
+        "symbol": "MSTRc",
+        "price": 109.5,
+        "source": "chainlink",
+        "momentum": 0,
+        "sma": 109.5,
+        "trendUp": true,
+        "score": 0,
+        "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+      },
+      {
+        "symbol": "NVDAc",
+        "price": 160.76543559,
+        "source": "chainlink",
+        "momentum": 0,
+        "sma": 160.76543559,
+        "trendUp": true,
+        "score": 0,
+        "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+      },
+      {
+        "symbol": "SNDKc",
+        "price": 866.831,
+        "source": "chainlink",
+        "momentum": 0,
+        "sma": 866.831,
+        "trendUp": true,
+        "score": 0,
+        "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+      },
+      {
+        "symbol": "SPCXc",
+        "price": 136.54,
+        "source": "chainlink",
+        "momentum": 0,
+        "sma": 136.54,
+        "trendUp": true,
+        "score": 0,
+        "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+      },
+      {
+        "symbol": "TSLAc",
+        "price": 387.793,
+        "source": "chainlink",
+        "momentum": 0,
+        "sma": 387.79299999999995,
+        "trendUp": true,
+        "score": 0,
+        "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+      }
+    ],
+    "targets": [
+      {
+        "symbol": "AAPLc",
+        "targetWeight": 0.09500000000000001,
+        "currentWeight": 0.09499999999999999,
+        "targetValueUsd": 950.0000000000003,
+        "currentValueUsd": 950.0000000000001
+      },
+      {
+        "symbol": "AMZNc",
+        "targetWeight": 0.09500000000000001,
+        "currentWeight": 0.09499999999999999,
+        "targetValueUsd": 950.0000000000003,
+        "currentValueUsd": 950.0000000000001
+      },
+      {
+        "symbol": "GOOGLc",
+        "targetWeight": 0.09500000000000001,
+        "currentWeight": 0.095,
+        "targetValueUsd": 950.0000000000003,
+        "currentValueUsd": 950.0000000000002
+      },
+      {
+        "symbol": "METAc",
+        "targetWeight": 0.09500000000000001,
+        "currentWeight": 0.09499999999999999,
+        "targetValueUsd": 950.0000000000003,
+        "currentValueUsd": 950.0000000000001
+      },
+      {
+        "symbol": "MSFTc",
+        "targetWeight": 0.09500000000000001,
+        "currentWeight": 0.09499999999999999,
+        "targetValueUsd": 950.0000000000003,
+        "currentValueUsd": 950.0000000000001
+      },
+      {
+        "symbol": "MSTRc",
+        "targetWeight": 0.09500000000000001,
+        "currentWeight": 0.09499999999999999,
+        "targetValueUsd": 950.0000000000003,
+        "currentValueUsd": 950.0000000000001
+      },
+      {
+        "symbol": "NVDAc",
+        "targetWeight": 0.09500000000000001,
+        "currentWeight": 0.09499999999999999,
+        "targetValueUsd": 950.0000000000003,
+        "currentValueUsd": 950.0000000000001
+      },
+      {
+        "symbol": "SNDKc",
+        "targetWeight": 0.09500000000000001,
+        "currentWeight": 0.09499999999999999,
+        "targetValueUsd": 950.0000000000003,
+        "currentValueUsd": 950.0000000000001
+      },
+      {
+        "symbol": "SPCXc",
+        "targetWeight": 0.09500000000000001,
+        "currentWeight": 0.09499999999999999,
+        "targetValueUsd": 950.0000000000003,
+        "currentValueUsd": 950.0000000000001
+      },
+      {
+        "symbol": "TSLAc",
+        "targetWeight": 0.09500000000000001,
+        "currentWeight": 0.09499999999999999,
+        "targetValueUsd": 950.0000000000003,
+        "currentValueUsd": 950.0000000000001
+      }
+    ],
+    "trades": [],
+    "notes": []
+  },
+  "recentDecisions": [
+    {
+      "cycle": 4,
+      "at": "2026-11-14T18:06:56.129Z",
+      "portfolioValueUsd": 10000.000000000002,
+      "cashUsd": 499.9999999999999,
+      "signals": [
+        {
+          "symbol": "AAPLc",
+          "price": 355.585,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 355.585,
+          "trendUp": true,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "AMZNc",
+          "price": 265.44725,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 265.44725,
+          "trendUp": true,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "GOOGLc",
+          "price": 294.89116703,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 294.89116703,
+          "trendUp": true,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "METAc",
+          "price": 638.54030616,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 638.54030616,
+          "trendUp": true,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "MSFTc",
+          "price": 522.405,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 522.405,
+          "trendUp": true,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "MSTRc",
+          "price": 109.5,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 109.5,
+          "trendUp": true,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "NVDAc",
+          "price": 160.76543559,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 160.76543559,
+          "trendUp": true,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "SNDKc",
+          "price": 866.831,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 866.831,
+          "trendUp": true,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "SPCXc",
+          "price": 136.54,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 136.54,
+          "trendUp": true,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "TSLAc",
+          "price": 387.793,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 387.79299999999995,
+          "trendUp": true,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+        }
+      ],
+      "targets": [
+        {
+          "symbol": "AAPLc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.09499999999999999,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000001
+        },
+        {
+          "symbol": "AMZNc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.09499999999999999,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000001
+        },
+        {
+          "symbol": "GOOGLc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.095,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000002
+        },
+        {
+          "symbol": "METAc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.09499999999999999,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000001
+        },
+        {
+          "symbol": "MSFTc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.09499999999999999,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000001
+        },
+        {
+          "symbol": "MSTRc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.09499999999999999,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000001
+        },
+        {
+          "symbol": "NVDAc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.09499999999999999,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000001
+        },
+        {
+          "symbol": "SNDKc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.09499999999999999,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000001
+        },
+        {
+          "symbol": "SPCXc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.09499999999999999,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000001
+        },
+        {
+          "symbol": "TSLAc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.09499999999999999,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000001
+        }
+      ],
+      "trades": [],
+      "notes": []
+    },
+    {
+      "cycle": 3,
+      "at": "2026-11-14T18:06:14.003Z",
+      "portfolioValueUsd": 10000.000000000002,
+      "cashUsd": 499.9999999999999,
+      "signals": [
+        {
+          "symbol": "AAPLc",
+          "price": 355.585,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 355.585,
+          "trendUp": true,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "AMZNc",
+          "price": 265.44725,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 265.44725,
+          "trendUp": true,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "GOOGLc",
+          "price": 294.89116703,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 294.89116703,
+          "trendUp": true,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "METAc",
+          "price": 638.54030616,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 638.54030616,
+          "trendUp": true,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "MSFTc",
+          "price": 522.405,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 522.405,
+          "trendUp": true,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "MSTRc",
+          "price": 109.5,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 109.5,
+          "trendUp": true,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "NVDAc",
+          "price": 160.76543559,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 160.76543559,
+          "trendUp": true,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "SNDKc",
+          "price": 866.831,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 866.831,
+          "trendUp": true,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "SPCXc",
+          "price": 136.54,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 136.54,
+          "trendUp": true,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "TSLAc",
+          "price": 387.793,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 387.79299999999995,
+          "trendUp": true,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; at or above trend (SMA); score 0.0000; price from chainlink"
+        }
+      ],
+      "targets": [
+        {
+          "symbol": "AAPLc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.09499999999999999,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000001
+        },
+        {
+          "symbol": "AMZNc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.09499999999999999,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000001
+        },
+        {
+          "symbol": "GOOGLc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.095,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000002
+        },
+        {
+          "symbol": "METAc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.09499999999999999,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000001
+        },
+        {
+          "symbol": "MSFTc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.09499999999999999,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000001
+        },
+        {
+          "symbol": "MSTRc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.09499999999999999,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000001
+        },
+        {
+          "symbol": "NVDAc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.09499999999999999,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000001
+        },
+        {
+          "symbol": "SNDKc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.09499999999999999,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000001
+        },
+        {
+          "symbol": "SPCXc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.09499999999999999,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000001
+        },
+        {
+          "symbol": "TSLAc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.09499999999999999,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000001
+        }
+      ],
+      "trades": [],
+      "notes": []
+    },
+    {
+      "cycle": 2,
+      "at": "2026-11-14T18:05:00.005Z",
+      "portfolioValueUsd": 10000.000000000002,
+      "cashUsd": 499.9999999999999,
+      "signals": [
+        {
+          "symbol": "AAPLc",
+          "price": 355.585,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 355.585,
+          "trendUp": false,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; below trend (SMA), no overweight; score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "AMZNc",
+          "price": 265.44725,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 265.44725,
+          "trendUp": false,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; below trend (SMA), no overweight; score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "GOOGLc",
+          "price": 294.89116703,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 294.89116703,
+          "trendUp": false,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; below trend (SMA), no overweight; score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "METAc",
+          "price": 638.54030616,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 638.54030616,
+          "trendUp": false,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; below trend (SMA), no overweight; score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "MSFTc",
+          "price": 522.405,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 522.405,
+          "trendUp": false,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; below trend (SMA), no overweight; score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "MSTRc",
+          "price": 109.5,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 109.5,
+          "trendUp": false,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; below trend (SMA), no overweight; score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "NVDAc",
+          "price": 160.76543559,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 160.76543559,
+          "trendUp": false,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; below trend (SMA), no overweight; score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "SNDKc",
+          "price": 866.831,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 866.831,
+          "trendUp": false,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; below trend (SMA), no overweight; score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "SPCXc",
+          "price": 136.54,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 136.54,
+          "trendUp": false,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; below trend (SMA), no overweight; score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "TSLAc",
+          "price": 387.793,
+          "source": "chainlink",
+          "momentum": 0,
+          "sma": 387.793,
+          "trendUp": false,
+          "score": 0,
+          "reason": "momentum 0.00% over 3 cycles; below trend (SMA), no overweight; score 0.0000; price from chainlink"
+        }
+      ],
+      "targets": [
+        {
+          "symbol": "AAPLc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.09499999999999999,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000001
+        },
+        {
+          "symbol": "AMZNc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.09499999999999999,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000001
+        },
+        {
+          "symbol": "GOOGLc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.095,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000002
+        },
+        {
+          "symbol": "METAc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.09499999999999999,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000001
+        },
+        {
+          "symbol": "MSFTc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.09499999999999999,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000001
+        },
+        {
+          "symbol": "MSTRc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.09499999999999999,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000001
+        },
+        {
+          "symbol": "NVDAc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.09499999999999999,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000001
+        },
+        {
+          "symbol": "SNDKc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.09499999999999999,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000001
+        },
+        {
+          "symbol": "SPCXc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.09499999999999999,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000001
+        },
+        {
+          "symbol": "TSLAc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0.09499999999999999,
+          "targetValueUsd": 950.0000000000003,
+          "currentValueUsd": 950.0000000000001
+        }
+      ],
+      "trades": [],
+      "notes": [
+        "backfill failed for AMZNc (cycle 1): Nonce provided for the transaction is lower than the current nonce of the account.\nTry increasing the nonce or find the ",
+        "backfill failed for MSFTc (cycle 1): Nonce provided for the transaction is lower than the current nonce of the account.\nTry increasing the nonce or find the ",
+        "backfill failed for SPCXc (cycle 1): Nonce provided for the transaction is lower than the current nonce of the account.\nTry increasing the nonce or find the "
+      ]
+    },
+    {
+      "cycle": 1,
+      "at": "2026-11-14T18:03:40.400Z",
+      "portfolioValueUsd": 10000.000000000002,
+      "cashUsd": 499.9999999999999,
+      "signals": [
+        {
+          "symbol": "AAPLc",
+          "price": 355.585,
+          "source": "chainlink",
+          "momentum": null,
+          "sma": null,
+          "trendUp": null,
+          "score": 0,
+          "reason": "warming up: only 1 close in history, no momentum yet; score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "AMZNc",
+          "price": 265.44725,
+          "source": "chainlink",
+          "momentum": null,
+          "sma": null,
+          "trendUp": null,
+          "score": 0,
+          "reason": "warming up: only 1 close in history, no momentum yet; score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "GOOGLc",
+          "price": 294.89116703,
+          "source": "chainlink",
+          "momentum": null,
+          "sma": null,
+          "trendUp": null,
+          "score": 0,
+          "reason": "warming up: only 1 close in history, no momentum yet; score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "METAc",
+          "price": 638.54030616,
+          "source": "chainlink",
+          "momentum": null,
+          "sma": null,
+          "trendUp": null,
+          "score": 0,
+          "reason": "warming up: only 1 close in history, no momentum yet; score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "MSFTc",
+          "price": 522.405,
+          "source": "chainlink",
+          "momentum": null,
+          "sma": null,
+          "trendUp": null,
+          "score": 0,
+          "reason": "warming up: only 1 close in history, no momentum yet; score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "MSTRc",
+          "price": 109.5,
+          "source": "chainlink",
+          "momentum": null,
+          "sma": null,
+          "trendUp": null,
+          "score": 0,
+          "reason": "warming up: only 1 close in history, no momentum yet; score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "NVDAc",
+          "price": 160.76543559,
+          "source": "chainlink",
+          "momentum": null,
+          "sma": null,
+          "trendUp": null,
+          "score": 0,
+          "reason": "warming up: only 1 close in history, no momentum yet; score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "SNDKc",
+          "price": 866.831,
+          "source": "chainlink",
+          "momentum": null,
+          "sma": null,
+          "trendUp": null,
+          "score": 0,
+          "reason": "warming up: only 1 close in history, no momentum yet; score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "SPCXc",
+          "price": 136.54,
+          "source": "chainlink",
+          "momentum": null,
+          "sma": null,
+          "trendUp": null,
+          "score": 0,
+          "reason": "warming up: only 1 close in history, no momentum yet; score 0.0000; price from chainlink"
+        },
+        {
+          "symbol": "TSLAc",
+          "price": 387.793,
+          "source": "chainlink",
+          "momentum": null,
+          "sma": null,
+          "trendUp": null,
+          "score": 0,
+          "reason": "warming up: only 1 close in history, no momentum yet; score 0.0000; price from chainlink"
+        }
+      ],
+      "targets": [
+        {
+          "symbol": "AAPLc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0,
+          "targetValueUsd": 950.0000000000001,
+          "currentValueUsd": 0
+        },
+        {
+          "symbol": "AMZNc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0,
+          "targetValueUsd": 950.0000000000001,
+          "currentValueUsd": 0
+        },
+        {
+          "symbol": "GOOGLc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0,
+          "targetValueUsd": 950.0000000000001,
+          "currentValueUsd": 0
+        },
+        {
+          "symbol": "METAc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0,
+          "targetValueUsd": 950.0000000000001,
+          "currentValueUsd": 0
+        },
+        {
+          "symbol": "MSFTc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0,
+          "targetValueUsd": 950.0000000000001,
+          "currentValueUsd": 0
+        },
+        {
+          "symbol": "MSTRc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0,
+          "targetValueUsd": 950.0000000000001,
+          "currentValueUsd": 0
+        },
+        {
+          "symbol": "NVDAc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0,
+          "targetValueUsd": 950.0000000000001,
+          "currentValueUsd": 0
+        },
+        {
+          "symbol": "SNDKc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0,
+          "targetValueUsd": 950.0000000000001,
+          "currentValueUsd": 0
+        },
+        {
+          "symbol": "SPCXc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0,
+          "targetValueUsd": 950.0000000000001,
+          "currentValueUsd": 0
+        },
+        {
+          "symbol": "TSLAc",
+          "targetWeight": 0.09500000000000001,
+          "currentWeight": 0,
+          "targetValueUsd": 950.0000000000001,
+          "currentValueUsd": 0
+        }
+      ],
+      "trades": [
+        {
+          "symbol": "AAPLc",
+          "side": "BUY",
+          "tokens": 2.6716537536735245,
+          "price": 355.585,
+          "valueUsd": 950.0000000000001,
+          "reason": "BUY AAPLc: target 9.50% vs current 0.00% of portfolio ($950.00 vs $0.00)",
+          "at": "2026-11-14T18:03:40.400Z",
+          "cycle": 1,
+          "journalTx": "0x0c15fc9f2dfe040fa8c102885a2940b9b91def31b82aa100ccd6c4491830b576",
+          "journalStatus": "recorded"
+        },
+        {
+          "symbol": "AMZNc",
+          "side": "BUY",
+          "tokens": 3.5788654808064506,
+          "price": 265.44725,
+          "valueUsd": 950.0000000000001,
+          "reason": "BUY AMZNc: target 9.50% vs current 0.00% of portfolio ($950.00 vs $0.00)",
+          "at": "2026-11-14T18:03:40.400Z",
+          "cycle": 1,
+          "journalTx": "0x61b3db231cc00b87ca31be92e5160b4f2acfc21ae474ba1645c41cf77376621a",
+          "journalStatus": "recorded"
+        },
+        {
+          "symbol": "GOOGLc",
+          "side": "BUY",
+          "tokens": 3.2215274861161043,
+          "price": 294.89116703,
+          "valueUsd": 950.0000000000002,
+          "reason": "BUY GOOGLc: target 9.50% vs current 0.00% of portfolio ($950.00 vs $0.00)",
+          "at": "2026-11-14T18:03:40.400Z",
+          "cycle": 1,
+          "journalTx": "0x969a939dfc3a4d1ea85d8bc5e0f11bd7c3852d42579a5a3cce6fd603dce97648",
+          "journalStatus": "recorded"
+        },
+        {
+          "symbol": "METAc",
+          "side": "BUY",
+          "tokens": 1.4877682596311426,
+          "price": 638.54030616,
+          "valueUsd": 950.0000000000001,
+          "reason": "BUY METAc: target 9.50% vs current 0.00% of portfolio ($950.00 vs $0.00)",
+          "at": "2026-11-14T18:03:40.400Z",
+          "cycle": 1,
+          "journalTx": "0xd5c576e219faaf161278995ecb05cedf63a6e52080a3471ede5f81cf644f6f3c",
+          "journalStatus": "recorded"
+        },
+        {
+          "symbol": "MSFTc",
+          "side": "BUY",
+          "tokens": 1.8185124568103295,
+          "price": 522.405,
+          "valueUsd": 950.0000000000001,
+          "reason": "BUY MSFTc: target 9.50% vs current 0.00% of portfolio ($950.00 vs $0.00)",
+          "at": "2026-11-14T18:03:40.400Z",
+          "cycle": 1,
+          "journalTx": "0xdff3c176d3632f272806e9558c25afe44d00659a8ff2776516e6f3dd3cd13c80",
+          "journalStatus": "recorded"
+        },
+        {
+          "symbol": "MSTRc",
+          "side": "BUY",
+          "tokens": 8.675799086757992,
+          "price": 109.5,
+          "valueUsd": 950.0000000000001,
+          "reason": "BUY MSTRc: target 9.50% vs current 0.00% of portfolio ($950.00 vs $0.00)",
+          "at": "2026-11-14T18:03:40.400Z",
+          "cycle": 1,
+          "journalTx": "0x79b9635956d4cb08b60a22b455d007ac0eaa5a67b277aba27f56e8ce5961220e",
+          "journalStatus": "recorded"
+        },
+        {
+          "symbol": "NVDAc",
+          "side": "BUY",
+          "tokens": 5.909230404617474,
+          "price": 160.76543559,
+          "valueUsd": 950.0000000000001,
+          "reason": "BUY NVDAc: target 9.50% vs current 0.00% of portfolio ($950.00 vs $0.00)",
+          "at": "2026-11-14T18:03:40.400Z",
+          "cycle": 1,
+          "journalTx": "0xc0112d31117812010411d46a8b37b8beb7c6cd523351bc569c04d51c39d0564d",
+          "journalStatus": "recorded"
+        },
+        {
+          "symbol": "SNDKc",
+          "side": "BUY",
+          "tokens": 1.0959460379243475,
+          "price": 866.831,
+          "valueUsd": 950.0000000000001,
+          "reason": "BUY SNDKc: target 9.50% vs current 0.00% of portfolio ($950.00 vs $0.00)",
+          "at": "2026-11-14T18:03:40.400Z",
+          "cycle": 1,
+          "journalTx": "0xad81aadebfb9b2ba96c590ba0479787baaf42690709a374227e18417f0622bee",
+          "journalStatus": "recorded"
+        },
+        {
+          "symbol": "SPCXc",
+          "side": "BUY",
+          "tokens": 6.9576680826131545,
+          "price": 136.54,
+          "valueUsd": 950.0000000000001,
+          "reason": "BUY SPCXc: target 9.50% vs current 0.00% of portfolio ($950.00 vs $0.00)",
+          "at": "2026-11-14T18:03:40.400Z",
+          "cycle": 1,
+          "journalTx": "0x3e1371705a315544a77e3b1876c3e7ed57b0cb469ca73c2b11278f2ba821d20f",
+          "journalStatus": "recorded"
+        },
+        {
+          "symbol": "TSLAc",
+          "side": "BUY",
+          "tokens": 2.4497605681381565,
+          "price": 387.793,
+          "valueUsd": 950.0000000000001,
+          "reason": "BUY TSLAc: target 9.50% vs current 0.00% of portfolio ($950.00 vs $0.00)",
+          "at": "2026-11-14T18:03:40.400Z",
+          "cycle": 1,
+          "journalTx": "0xa68d611e34a0299b331222aff2a52b4ffb4c3ce6ee2ce7929139b16804c5fcd7",
+          "journalStatus": "recorded"
+        }
+      ],
+      "notes": [
+        "initial allocation: turnover cap does not apply on cycle 1",
+        "AAPLc journal write failed: The current chain of the wallet (id: 11155111) does not match the target chain for the transaction (id: 84532 – Base Sep",
+        "AMZNc journal write failed: The current chain of the wallet (id: 11155111) does not match the target chain for the transaction (id: 84532 – Base Sep",
+        "GOOGLc journal write failed: The current chain of the wallet (id: 11155111) does not match the target chain for the transaction (id: 84532 – Base Sep",
+        "METAc journal write failed: The current chain of the wallet (id: 11155111) does not match the target chain for the transaction (id: 84532 – Base Sep",
+        "MSFTc journal write failed: The current chain of the wallet (id: 11155111) does not match the target chain for the transaction (id: 84532 – Base Sep",
+        "MSTRc journal write failed: The current chain of the wallet (id: 11155111) does not match the target chain for the transaction (id: 84532 – Base Sep",
+        "NVDAc journal write failed: The current chain of the wallet (id: 11155111) does not match the target chain for the transaction (id: 84532 – Base Sep",
+        "SNDKc journal write failed: The current chain of the wallet (id: 11155111) does not match the target chain for the transaction (id: 84532 – Base Sep",
+        "SPCXc journal write failed: The current chain of the wallet (id: 11155111) does not match the target chain for the transaction (id: 84532 – Base Sep",
+        "TSLAc journal write failed: The current chain of the wallet (id: 11155111) does not match the target chain for the transaction (id: 84532 – Base Sep"
+      ]
+    }
+  ],
+  "recentTrades": [
+    {
+      "symbol": "TSLAc",
+      "side": "BUY",
+      "tokens": 2.4497605681381565,
+      "price": 387.793,
+      "valueUsd": 950.0000000000001,
+      "reason": "BUY TSLAc: target 9.50% vs current 0.00% of portfolio ($950.00 vs $0.00)",
+      "at": "2026-11-14T18:03:40.400Z",
+      "cycle": 1,
+      "journalTx": "0xa68d611e34a0299b331222aff2a52b4ffb4c3ce6ee2ce7929139b16804c5fcd7",
+      "journalStatus": "recorded"
+    },
+    {
+      "symbol": "SPCXc",
+      "side": "BUY",
+      "tokens": 6.9576680826131545,
+      "price": 136.54,
+      "valueUsd": 950.0000000000001,
+      "reason": "BUY SPCXc: target 9.50% vs current 0.00% of portfolio ($950.00 vs $0.00)",
+      "at": "2026-11-14T18:03:40.400Z",
+      "cycle": 1,
+      "journalTx": "0x3e1371705a315544a77e3b1876c3e7ed57b0cb469ca73c2b11278f2ba821d20f",
+      "journalStatus": "recorded"
+    },
+    {
+      "symbol": "SNDKc",
+      "side": "BUY",
+      "tokens": 1.0959460379243475,
+      "price": 866.831,
+      "valueUsd": 950.0000000000001,
+      "reason": "BUY SNDKc: target 9.50% vs current 0.00% of portfolio ($950.00 vs $0.00)",
+      "at": "2026-11-14T18:03:40.400Z",
+      "cycle": 1,
+      "journalTx": "0xad81aadebfb9b2ba96c590ba0479787baaf42690709a374227e18417f0622bee",
+      "journalStatus": "recorded"
+    },
+    {
+      "symbol": "NVDAc",
+      "side": "BUY",
+      "tokens": 5.909230404617474,
+      "price": 160.76543559,
+      "valueUsd": 950.0000000000001,
+      "reason": "BUY NVDAc: target 9.50% vs current 0.00% of portfolio ($950.00 vs $0.00)",
+      "at": "2026-11-14T18:03:40.400Z",
+      "cycle": 1,
+      "journalTx": "0xc0112d31117812010411d46a8b37b8beb7c6cd523351bc569c04d51c39d0564d",
+      "journalStatus": "recorded"
+    },
+    {
+      "symbol": "MSTRc",
+      "side": "BUY",
+      "tokens": 8.675799086757992,
+      "price": 109.5,
+      "valueUsd": 950.0000000000001,
+      "reason": "BUY MSTRc: target 9.50% vs current 0.00% of portfolio ($950.00 vs $0.00)",
+      "at": "2026-11-14T18:03:40.400Z",
+      "cycle": 1,
+      "journalTx": "0x79b9635956d4cb08b60a22b455d007ac0eaa5a67b277aba27f56e8ce5961220e",
+      "journalStatus": "recorded"
+    },
+    {
+      "symbol": "MSFTc",
+      "side": "BUY",
+      "tokens": 1.8185124568103295,
+      "price": 522.405,
+      "valueUsd": 950.0000000000001,
+      "reason": "BUY MSFTc: target 9.50% vs current 0.00% of portfolio ($950.00 vs $0.00)",
+      "at": "2026-11-14T18:03:40.400Z",
+      "cycle": 1,
+      "journalTx": "0xdff3c176d3632f272806e9558c25afe44d00659a8ff2776516e6f3dd3cd13c80",
+      "journalStatus": "recorded"
+    },
+    {
+      "symbol": "METAc",
+      "side": "BUY",
+      "tokens": 1.4877682596311426,
+      "price": 638.54030616,
+      "valueUsd": 950.0000000000001,
+      "reason": "BUY METAc: target 9.50% vs current 0.00% of portfolio ($950.00 vs $0.00)",
+      "at": "2026-11-14T18:03:40.400Z",
+      "cycle": 1,
+      "journalTx": "0xd5c576e219faaf161278995ecb05cedf63a6e52080a3471ede5f81cf644f6f3c",
+      "journalStatus": "recorded"
+    },
+    {
+      "symbol": "GOOGLc",
+      "side": "BUY",
+      "tokens": 3.2215274861161043,
+      "price": 294.89116703,
+      "valueUsd": 950.0000000000002,
+      "reason": "BUY GOOGLc: target 9.50% vs current 0.00% of portfolio ($950.00 vs $0.00)",
+      "at": "2026-11-14T18:03:40.400Z",
+      "cycle": 1,
+      "journalTx": "0x969a939dfc3a4d1ea85d8bc5e0f11bd7c3852d42579a5a3cce6fd603dce97648",
+      "journalStatus": "recorded"
+    },
+    {
+      "symbol": "AMZNc",
+      "side": "BUY",
+      "tokens": 3.5788654808064506,
+      "price": 265.44725,
+      "valueUsd": 950.0000000000001,
+      "reason": "BUY AMZNc: target 9.50% vs current 0.00% of portfolio ($950.00 vs $0.00)",
+      "at": "2026-11-14T18:03:40.400Z",
+      "cycle": 1,
+      "journalTx": "0x61b3db231cc00b87ca31be92e5160b4f2acfc21ae474ba1645c41cf77376621a",
+      "journalStatus": "recorded"
+    },
+    {
+      "symbol": "AAPLc",
+      "side": "BUY",
+      "tokens": 2.6716537536735245,
+      "price": 355.585,
+      "valueUsd": 950.0000000000001,
+      "reason": "BUY AAPLc: target 9.50% vs current 0.00% of portfolio ($950.00 vs $0.00)",
+      "at": "2026-11-14T18:03:40.400Z",
+      "cycle": 1,
+      "journalTx": "0x0c15fc9f2dfe040fa8c102885a2940b9b91def31b82aa100ccd6c4491830b576",
+      "journalStatus": "recorded"
+    }
+  ],
+  "priceHistory": [
+    {
+      "cycle": 1,
+      "at": "2026-11-14T18:03:40.400Z",
+      "prices": {
+        "AAPLc": 355.585,
+        "AMZNc": 265.44725,
+        "GOOGLc": 294.89116703,
+        "METAc": 638.54030616,
+        "MSFTc": 522.405,
+        "MSTRc": 109.5,
+        "NVDAc": 160.76543559,
+        "SNDKc": 866.831,
+        "SPCXc": 136.54,
+        "TSLAc": 387.793
+      }
+    },
+    {
+      "cycle": 2,
+      "at": "2026-11-14T18:05:00.005Z",
+      "prices": {
+        "AAPLc": 355.585,
+        "AMZNc": 265.44725,
+        "GOOGLc": 294.89116703,
+        "METAc": 638.54030616,
+        "MSFTc": 522.405,
+        "MSTRc": 109.5,
+        "NVDAc": 160.76543559,
+        "SNDKc": 866.831,
+        "SPCXc": 136.54,
+        "TSLAc": 387.793
+      }
+    },
+    {
+      "cycle": 3,
+      "at": "2026-11-14T18:06:14.003Z",
+      "prices": {
+        "AAPLc": 355.585,
+        "AMZNc": 265.44725,
+        "GOOGLc": 294.89116703,
+        "METAc": 638.54030616,
+        "MSFTc": 522.405,
+        "MSTRc": 109.5,
+        "NVDAc": 160.76543559,
+        "SNDKc": 866.831,
+        "SPCXc": 136.54,
+        "TSLAc": 387.793
+      }
+    },
+    {
+      "cycle": 4,
+      "at": "2026-11-14T18:06:56.129Z",
+      "prices": {
+        "AAPLc": 355.585,
+        "AMZNc": 265.44725,
+        "GOOGLc": 294.89116703,
+        "METAc": 638.54030616,
+        "MSFTc": 522.405,
+        "MSTRc": 109.5,
+        "NVDAc": 160.76543559,
+        "SNDKc": 866.831,
+        "SPCXc": 136.54,
+        "TSLAc": 387.793
+      }
+    }
+  ],
+  "journalAddress": "0x91e643Be543078DFA2CbE4101e06e80C7d62E0F4",
+  "explorer": "https://sepolia.basescan.org",
+  "quotes": [
+    {
+      "symbol": "AAPLc",
+      "price": 355.585,
+      "source": "chainlink"
+    },
+    {
+      "symbol": "AMZNc",
+      "price": 265.44725,
+      "source": "chainlink"
+    },
+    {
+      "symbol": "GOOGLc",
+      "price": 294.89116703,
+      "source": "chainlink"
+    },
+    {
+      "symbol": "METAc",
+      "price": 638.54030616,
+      "source": "chainlink"
+    },
+    {
+      "symbol": "MSFTc",
+      "price": 522.405,
+      "source": "chainlink"
+    },
+    {
+      "symbol": "MSTRc",
+      "price": 109.5,
+      "source": "chainlink"
+    },
+    {
+      "symbol": "NVDAc",
+      "price": 160.76543559,
+      "source": "chainlink"
+    },
+    {
+      "symbol": "SNDKc",
+      "price": 866.831,
+      "source": "chainlink"
+    },
+    {
+      "symbol": "SPCXc",
+      "price": 136.54,
+      "source": "chainlink"
+    },
+    {
+      "symbol": "TSLAc",
+      "price": 387.793,
+      "source": "chainlink"
+    }
+  ],
+  "universe": [
+    "AAPLc",
+    "AMZNc",
+    "GOOGLc",
+    "METAc",
+    "MSFTc",
+    "MSTRc",
+    "NVDAc",
+    "SNDKc",
+    "SPCXc",
+    "TSLAc"
+  ]
+}

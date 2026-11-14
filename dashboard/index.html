@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>StockPilot — Paper-Trading Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>StockPilot</h1>
+  <p class="sub">Deterministic research-to-portfolio agent for Coinbase tokenized stocks (B20) on Base.<br>
+  <strong>Paper trading only</strong> — virtual $10,000 USDC, fills at NAV. No real money, no real trades, not investment advice.</p>
+  <p id="updated" class="muted">Loading…</p>
+</header>
+
+<main>
+  <section id="summary" class="cards">
+    <div class="card"><div class="label">Portfolio value</div><div class="big" id="value">—</div></div>
+    <div class="card"><div class="label">Cash (USDC)</div><div class="big" id="cash">—</div></div>
+    <div class="card"><div class="label">PnL vs $10,000 start</div><div class="big" id="pnl">—</div></div>
+    <div class="card"><div class="label">Cycles run</div><div class="big" id="cycles">—</div></div>
+  </section>
+
+  <section>
+    <h2>Positions</h2>
+    <table id="positions">
+      <thead><tr><th>Symbol</th><th>Tokens</th><th>Price (NAV)</th><th>Value</th><th>Weight</th><th>Avg price</th><th>Unrealised PnL</th></tr></thead>
+      <tbody><tr><td colspan="7">Loading…</td></tr></tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Latest decision &amp; reasoning</h2>
+    <div id="decision"><p class="muted">Loading…</p></div>
+  </section>
+
+  <section>
+    <h2>Trade history (paper)</h2>
+    <table id="trades">
+      <thead><tr><th>#</th><th>Time (UTC)</th><th>Side</th><th>Symbol</th><th>Tokens</th><th>Price</th><th>Value</th><th>Journal (Sepolia)</th></tr></thead>
+      <tbody><tr><td colspan="8">Loading…</td></tr></tbody>
+    </table>
+    <p class="muted">Every trade is recorded on-chain in the TradeJournal contract on Base Sepolia (testnet).
+    Contract: <a id="journal-link" href="#" target="_blank" rel="noopener">not deployed yet</a></p>
+  </section>
+
+  <section>
+    <h2>How it works</h2>
+    <ol>
+      <li>Reads the Coinbase Tokenized Stocks API (358 stocks, no key) and Chainlink total-return NAV feeds on Base for the 10 majors.</li>
+      <li>Scores each stock: momentum over 3 cycles (clipped ±25%), with a trend filter (never overweight a name below its moving average).</li>
+      <li>Targets equal weights tilted by score, capped at 20% per position, 25% turnover per cycle, 5% cash reserve.</li>
+      <li>Fills paper trades at NAV, logs every decision with its reasons, and mirrors each trade to the Sepolia TradeJournal.</li>
+    </ol>
+    <p class="muted">Paper trading only. This agent does not trade real stocks, hold real funds, or give investment advice. Not available to US users.</p>
+  </section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

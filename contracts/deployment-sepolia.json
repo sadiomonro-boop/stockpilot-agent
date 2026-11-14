@@ -1,0 +1,8 @@
+{
+  "network": "base-sepolia",
+  "chainId": 84532,
+  "contract": "TradeJournal",
+  "address": "0x91e643Be543078DFA2CbE4101e06e80C7d62E0F4",
+  "txHash": "0x035e826baa2e71a28b7fa601846f92b3c424baab6fb38da21d87e635236077ef",
+  "explorer": "https://sepolia.basescan.org/address/0x91e643Be543078DFA2CbE4101e06e80C7d62E0F4"
+}

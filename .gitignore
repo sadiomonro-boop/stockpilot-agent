@@ -1,0 +1,8 @@
+node_modules/
+dist/
+out/
+cache/
+.DS_Store
+.env
+agent/state.json
+agent/state.json.tmp
